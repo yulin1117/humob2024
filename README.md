@@ -1,6 +1,6 @@
 # humob2024
 
-Probability Matrix Heatmap: Weekday vs Weekend
+## Probability Matrix Heatmap: Weekday vs Weekend
 
 This script generates heatmaps to visualize user movement data, comparing patterns between weekdays and weekends.
 
