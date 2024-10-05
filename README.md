@@ -17,4 +17,4 @@ Requirements
 
 Usage
 
-Run the provided notebook to generate the plots for the stable matrix analysis. You can adjust the percentages as needed for different visual outputs.
+Run the best_percentage.py to generate the plots for the stable matrix analysis. You can adjust the percentages as needed for different visual outputs.
