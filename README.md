@@ -1,4 +1,4 @@
-#humob2024
+humob2024
 
 Probability Matrix Heatmap: Weekday vs Weekend
 
@@ -53,5 +53,3 @@ Predicts weekend movement patterns by identifying frequently visited locations i
 Usage
 
 Run the notebook to analyze and fill missing weekend data.
-
-This version organizes the content clearly with concise descriptions. Let me know if this works!
