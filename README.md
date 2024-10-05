@@ -1,19 +1,19 @@
 # humob2024
-User Movement Data Heatmap & SD Calculation
+Probability Matrix Heatmap: Weekday vs Weekend
 
-This script processes user movement data to generate probability heatmaps and compute standard deviation (SD) of movement patterns over time.
+This script generates probability heatmaps to visualize user movement data, comparing patterns between weekdays and weekends.
 
 Features
 
-	•	Heatmap Generation: Visualize movement data on a 201x201 grid.
-	•	SD Calculation: Compute standard deviation of movement across multiple days.
-	•	Parallel Processing: Efficient analysis using Python’s multiprocessing.
+	•	Probability Matrix: Calculates and plots movement probability for different time periods (weekdays vs weekends).
+	•	Heatmap Visualization: Visualizes the difference in movement patterns using a 201x201 grid.
+	•	Efficient Processing: Utilizes multiprocessing for fast analysis of multiple users.
 
 Usage
 
-	•	Modify csv_file to your dataset.
-	•	Adjust user IDs and time range in the script.
-	•	Run to generate visualizations and statistics.
+	•	Update the csv_file path to your dataset.
+	•	Adjust user IDs and time parameters in the script.
+	•	Run to generate heatmaps that highlight movement differences between weekdays and weekends.
  
 People Flow Analysis with Stable Matrix
 
