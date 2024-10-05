@@ -44,3 +44,7 @@ Description:
 
 This script analyzes user movement data from a city (e.g., “CityD”) and creates a 7x24 matrix representing the most frequent locations for each user, segmented by day of the week and hour of the day. The resulting matrix visualizes location frequency patterns for a given user over a week, with heatmaps generated to display the data.
 
+weekend_prediction.ipynb
+Description:
+
+This notebook predicts weekend movement patterns by identifying frequently visited locations at different times of the day (morning, afternoon, and evening). It interpolates missing location data and saves the results for further analysis.
