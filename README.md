@@ -1,50 +1,57 @@
-# humob2024
+#humob2024
+
 Probability Matrix Heatmap: Weekday vs Weekend
 
-This script generates probability heatmaps to visualize user movement data, comparing patterns between weekdays and weekends.
+This script generates heatmaps to visualize user movement data, comparing patterns between weekdays and weekends.
 
 Features
 
-	•	Probability Matrix: Calculates and plots movement probability for different time periods (weekdays vs weekends).
-	•	Heatmap Visualization: Visualizes the difference in movement patterns using a 201x201 grid.
-	•	Efficient Processing: Utilizes multiprocessing for fast analysis of multiple users.
+	•	Probability Matrix: Calculates and visualizes movement probability for weekdays and weekends.
+	•	Heatmap Visualization: Displays movement differences on a 201x201 grid.
+	•	Efficient Processing: Uses multiprocessing for analyzing multiple users quickly.
 
 Usage
 
 	•	Update the csv_file path to your dataset.
-	•	Adjust user IDs and time parameters in the script.
-	•	Run to generate heatmaps that highlight movement differences between weekdays and weekends.
- 
+	•	Adjust user IDs and time parameters.
+	•	Run to generate heatmaps highlighting movement differences.
+
 People Flow Analysis with Stable Matrix
 
-This repository contains Python code for analyzing and visualizing people flow data using a concept called the “stable matrix.” The primary goal of the project is to understand how the number of people changes across different hours of the day, with dynamic visualizations generated for different percentage scenarios.
+Analyzes people flow data using a “stable matrix” to show how the number of people changes over time, with visualizations for different percentage scenarios.
 
 Features
 
-	•	Data Visualization: Plots showing the number of people over time (hourly), based on the provided stable matrix data.
-	•	Dynamic Analysis: The stable matrix is analyzed for different percentage scenarios, with results dynamically labeled for better understanding.
-	•	Matplotlib Integration: Clean visual representations using matplotlib for plotting the data.
-
-Requirements
-
-	•	Python 3.x
-	•	Matplotlib
+	•	Data Visualization: Plots showing people flow over time.
+	•	Dynamic Analysis: Adjusts analysis based on different percentage inputs.
+	•	Matplotlib Integration: Clean visualizations with matplotlib.
 
 Usage
 
-Run the best_percentage.py to generate the plots for the stable matrix analysis. You can adjust the percentages as needed for different visual outputs.
+Run best_percentage.py to generate the stable matrix analysis. Adjust percentage inputs as needed.
 
 weekly_location_frequency_matrix.py
-Description:
 
-This script analyzes user movement data from a city (e.g., “CityD”) and creates a 7x24 matrix representing the most frequent locations for each user, segmented by day of the week and hour of the day. The resulting matrix visualizes location frequency patterns for a given user over a week, with heatmaps generated to display the data.
+Creates a 7x24 matrix to show the most frequent locations for each user, segmented by day of the week and hour of the day.
+
+Usage
+
+Update the csv_file path, adjust user parameters, and run the script to visualize weekly movement patterns.
 
 weekday_prediction.ipynb
-Description:
 
-This script analyzes user movement data from a city (e.g., “CityD”) and creates a 7x24 matrix representing the most frequent locations for each user, segmented by day of the week and hour of the day. The resulting matrix visualizes location frequency patterns for a given user over a week, with heatmaps generated to display the data.
+Generates a 7x24 matrix to visualize user movement patterns during weekdays, showing the most frequent locations visited.
+
+Usage
+
+Run the notebook to analyze weekday movement data and visualize it using heatmaps.
 
 weekend_prediction.ipynb
-Description:
 
-This notebook predicts weekend movement patterns by identifying frequently visited locations at different times of the day (morning, afternoon, and evening). It interpolates missing location data and saves the results for further analysis.
+Predicts weekend movement patterns by identifying frequently visited locations in the morning, afternoon, and evening. Interpolates missing data for analysis.
+
+Usage
+
+Run the notebook to analyze and fill missing weekend data.
+
+This version organizes the content clearly with concise descriptions. Let me know if this works!
