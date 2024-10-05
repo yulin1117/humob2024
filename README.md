@@ -33,3 +33,8 @@ Requirements
 Usage
 
 Run the best_percentage.py to generate the plots for the stable matrix analysis. You can adjust the percentages as needed for different visual outputs.
+
+weekly_location_frequency_matrix.py
+Description:
+
+This script analyzes user movement data from a city (e.g., “CityD”) and creates a 7x24 matrix representing the most frequent locations for each user, segmented by day of the week and hour of the day. The resulting matrix visualizes location frequency patterns for a given user over a week, with heatmaps generated to display the data.
