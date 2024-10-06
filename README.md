@@ -37,4 +37,5 @@ Based on the assumption that most individuals have regular weekday patterns, we 
 Using the method above to determine whether individuals are regular:
 
 1.For regular individuals, we predict their locations by identifying commuting patterns and filling in the most frequently visited locations for morning, afternoon, and evening.
+
 2.For irregular individuals, we apply an “activity circle” strategy to predict locations based on the most frequent and closest locations within 30 grids of their home.
