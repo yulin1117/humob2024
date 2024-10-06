@@ -7,6 +7,7 @@ In our initial tests, we masked data for the first 60 days and tested 1,000 user
 	2.	Weekends: Average GeoBLEU score was 0.21, and DTW was 38.70.
 
 This placed us in 20th place in the competition.
+
 ---------------------usage---------------------------
 ## Probability_Matrix_Heatmap.py
 
