@@ -27,8 +27,8 @@ This script analyzes user movement data to identify the proportion of regular us
 
 ## weekday_prediction.ipynb
 
-This notebook generates a 7x24 matrix to visualize user movement patterns during weekdays, showing the most frequent locations visited.
+This script predicts user commuting patterns by identifying home and work locations, filling missing location data for specific time periods.
 
 ## weekend_prediction.ipynb
-
-This notebook predicts weekend movement patterns by identifying frequently visited locations in the morning, afternoon, and evening. It interpolates missing data for analysis.
+For regular individuals, we predict their locations by identifying commuting patterns and filling in the most frequent locations for morning, afternoon, and evening.
+For irregular individuals, we use an “activity circle” strategy to predict locations based on nearby frequent and close locations within 30 grids of their home.
