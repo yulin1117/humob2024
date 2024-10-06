@@ -27,7 +27,10 @@ This script analyzes user movement data to identify the proportion of regular us
 
 ## weekday_prediction.ipynb
 
-This script predicts user commuting patterns by identifying home and work locations, filling missing location data for specific time periods.
+Based on the assumption that most individuals have regular weekday patterns, we first identify their “home” location during the hours of 10 PM to 6 AM and fill missing values with this location. Next, we calculate each individual’s commuting distance using Euclidean distance and determine their commuting patterns, including commuting times and key locations (home and work).
+
+	1.	Identifying commuting periods: Commuting is defined as movement with a distance of ≥ 6 grids (3000 meters).
+	2.	Classifying commuting times: Commutes are split into morning and evening, with noon as the dividing point. We identify the top four commuting periods, limiting each commute to a maximum of two hours.
 
 ## weekend_prediction.ipynb
 For regular individuals, we predict their locations by identifying commuting patterns and filling in the most frequent locations for morning, afternoon, and evening.
