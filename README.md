@@ -21,6 +21,10 @@ This script analyzes people flow data using a “stable matrix” to show how th
 
 This script creates a 7x24 matrix to show the most frequent locations for each user, segmented by day of the week and hour of the day.
 
+## top2_location_analysis.py
+
+This script analyzes user movement data to identify the proportion of regular users in the dataset. It calculates the top two most visited location ratios for each user and visualizes the results in a scatter plot to highlight consistent movement patterns.
+
 ## weekday_prediction.ipynb
 
 This notebook generates a 7x24 matrix to visualize user movement patterns during weekdays, showing the most frequent locations visited.
