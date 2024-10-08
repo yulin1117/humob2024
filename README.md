@@ -39,3 +39,37 @@ Using the method above to determine whether individuals are regular:
 1.For regular individuals, we predict their locations by identifying commuting patterns and filling in the most frequently visited locations for morning, afternoon, and evening.
 
 2.For irregular individuals, we apply an “activity circle” strategy to predict locations based on the most frequent and closest locations within 30 grids of their home.
+
+## knn_prediction.ipynb
+Human Flow Prediction Using K-Means and KNN
+
+This repository provides a Python script that predicts human movement patterns during weekends using clustering and regression models. The project focuses on analyzing human flow data, identifying key movement hotspots, and classifying behavior patterns such as frequent travelers and home-bound individuals. The predictions are based on coordinates extracted from real-world datasets, and the model utilizes K-means for clustering and KNN for prediction.
+
+Features
+
+	•	Clustering: Uses K-means to cluster locations based on user movement data, identifying significant hotspots.
+	•	Behavior Prediction: Classifies users into categories (e.g., frequent travelers, home-bound) and predicts future locations using KNN regression.
+	•	Heatmap Generation: Creates visual heatmaps to show the density of human movement across different areas.
+	•	Evaluation: Calculates metrics such as GeoBLEU and Dynamic Time Warping (DTW) to evaluate the accuracy of predictions.
+
+Usage
+
+	1.	Preprocess the dataset:
+Modify the dataset path in the script and ensure the CSV file contains valid user movement data with coordinates.
+	2.	Run the main prediction script:
+
+python main.py
+
+
+	3.	Visualize the results:
+The script will generate heatmaps and print out the prediction accuracy using GeoBLEU and DTW.
+
+Methods
+
+	•	K-Means Clustering: Identifies key locations where users frequently appear.
+	•	KNN Regression: Predicts users’ future locations based on historical movement data and current behavior patterns.
+	•	Heatmaps: Visualizes the density of movements across regions for both training and predicted data.
+
+Results
+
+This approach provides a clear understanding of human flow patterns, predicting locations with reasonable accuracy as demonstrated through the calculated GeoBLEU and DTW metrics.
