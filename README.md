@@ -41,9 +41,7 @@ Using the method above to determine whether individuals are regular:
 2.For irregular individuals, we apply an “activity circle” strategy to predict locations based on the most frequent and closest locations within 30 grids of their home.
 
 ## knn_prediction.ipynb
-Human Flow Prediction Using K-Means and KNN
-
-This repository provides a Python script that predicts human movement patterns during weekends using clustering and regression models. The project focuses on analyzing human flow data, identifying key movement hotspots, and classifying behavior patterns such as frequent travelers and home-bound individuals. The predictions are based on coordinates extracted from real-world datasets, and the model utilizes K-means for clustering and KNN for prediction.
+it provides a Python script that predicts human movement patterns during weekends using clustering and regression models. The project focuses on analyzing human flow data, identifying key movement hotspots, and classifying behavior patterns such as frequent travelers and home-bound individuals. The predictions are based on coordinates extracted from real-world datasets, and the model utilizes K-means for clustering and KNN for prediction.
 
 Features
 
