@@ -10,7 +10,7 @@ This placed us in 20th place in the competition.
 
 ---------------------usage---------------------------
 ## Probability_Matrix_Heatmap.ipynb
-
+用來分辨平日假日
 This script generates heatmaps to visualize user movement data, comparing patterns between weekdays and weekends.
 
 ## People_flow_stable_matrix.py
