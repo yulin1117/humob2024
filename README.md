@@ -9,6 +9,10 @@ In our initial tests, we masked data for the first 60 days and tested 1,000 user
 This placed us in 20th place in the competition.
 
 ---------------------usage---------------------------
+## Trajectory_Video.py
+用來畫用戶軌跡圖
+This script generates a video that shows the movement of a user in certain range of days.
+
 ## Probability_Matrix_Heatmap.ipynb
 用來分辨平日假日
 This script generates heatmaps to visualize user movement data, comparing patterns between weekdays and weekends.
