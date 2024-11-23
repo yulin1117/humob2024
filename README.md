@@ -9,6 +9,9 @@ In our initial tests, we masked data for the first 60 days and tested 1,000 user
 This placed us in 20th place in the competition.
 
 ---------------------usage---------------------------
+## 75daytop.py
+畫出top1與top2的比例來知道資料集的人是否規律
+
 ## Trajectory_Video.py
 用來畫用戶軌跡圖
 This script generates a video that shows the movement of a user in certain range of days.
